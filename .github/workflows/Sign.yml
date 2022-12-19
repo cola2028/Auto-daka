@@ -3,7 +3,7 @@ name: "Sign"
 on:
   workflow_dispatch:
   schedule:
-    - cron: "00 04 * * *" # 打卡时间
+    - cron: "00 00 * * *" # 打卡时间
 
 jobs:
   build:
